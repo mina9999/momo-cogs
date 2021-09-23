@@ -1,0 +1,19 @@
+{
+  "author": [
+    "candy"
+  ],
+  "description": "Set up a united-cube feed for a channel",
+  "end_user_data_statement": "No personal data is stored.",
+  "install_msg": "Use [p]ucube to get started",
+  "short": "united-cube feed",
+  "min_bot_version": "3.4.0",
+  "max_bot_version": "0.0.0",
+  "min_python_version": [3, 8, 1],
+  "hidden": false,
+  "disabled": false,
+  "required_cogs": {
+    "papago": "you can just go to the https://developers.naver.com/ and get api keys and made your own cog for translation."
+  },
+  "requirements": ["UCube"],
+  "tags" : ["ucube", "united-cube", "united-cube.com", "u cube"],
+}
