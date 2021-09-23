@@ -237,12 +237,12 @@ class ucube(commands.Cog):
                     username = f"{club_name}"
                     mention_role = f"<@&{role_id}>" if role_id else None                
                     message = await webhook.send(mention_role, username=username, avatar_url=avatar, embed=embed, allowed_mentions=discord.AllowedMentions(roles=True), wait=True)
-                    await message.add_reaction("<a:eatinglove:890166530246082601>")
+                    await message.add_reaction("❤️")
                     await asyncio.sleep(5)
                     if message_text:
                         for url in message_text.split("\n"):
                             msg3 = await webhook.send(url, username=username, avatar_url=avatar, wait=True)
-                            await msg3.add_reaction("<a:loveweverse:890143261614825502>")                    
+                            await msg3.add_reaction("❤️")                    
             except Exception:
                 pass
         
