@@ -89,14 +89,7 @@ class ucube(commands.Cog):
     @commands.group()
     async def ucube(self, ctx):
         """Subcommand for UCube related commands."""
-
-    @ucube.command()
-    @commands.is_owner()
-    async def resetclient(self, ctx):
-        """Reset the ucube client.  Do this when you've subscribed to new channels."""
-        await self.init()
-        await ctx.tick()
-
+        
     @ucube.command(name="add")
     @commands.guild_only()
     @commands.has_guild_permissions(manage_messages=True)
